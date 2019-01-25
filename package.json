@@ -1,6 +1,6 @@
 {
   "_from": "assistant-kodi",
-  "_id": "assistant-kodi@0.1",
+  "_id": "assistant-kodi@0.1.1",
   "_inBundle": false,
   "_location": "/assistant-kodi",
   "_phantomChildren": {},
@@ -33,5 +33,5 @@
     "type": "git",
     "url": "git+https://github.com/5AMsan/assistant-kodi.git"
   },
-  "version": "0.1"
+  "version": "0.1.1"
 }
