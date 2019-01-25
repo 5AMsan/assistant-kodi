@@ -1,0 +1,37 @@
+{
+  "_from": "assistant-kodi",
+  "_id": "assistant-kodi@0.1",
+  "_inBundle": false,
+  "_location": "/assistant-kodi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "assistant-kodi",
+    "name": "assistant-kodi",
+    "escapedName": "assistant-kodi",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_spec": "assistant-kodi",
+  "_where": "/home/pi/assistant-plugins",
+  "author": {
+    "name": "5AMsan"
+  },
+  "deprecated": false,
+  "description": "Plugin Kodi pour un Assistant via le package assistant-plugins",
+  "license": "MIT",
+  "homepage": "https://github.com/5AMsan/assistant-kodi#readme",
+  "main": "kodi.js",
+  "name": "assistant-kodi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5AMsan/assistant-kodi.git"
+  },
+  "version": "0.1"
+}
