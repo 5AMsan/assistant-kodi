@@ -3,8 +3,8 @@
 
 Ce plugin de [`assistant-plugins`](https://aymkdn.github.io/assistant-plugins/) permet de gérer les commandes [`JSONRPC Kodi`](https://kodi.wiki/view/JSON-RPC_API).
 
-**ATTENTION**, il y a plusieurs restrictions pour utiliser ce plugin :
-  - faire tourner `assistant-plugins` sur une machine Linux
+**ATTENTION**, il y a quelques restrictions pour utiliser ce plugin :
+  - faire tourner `assistant-plugins` sur une machine
   - avoir activé JSONRPC sur Kodi
 
 ## Installation
