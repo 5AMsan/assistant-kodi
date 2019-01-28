@@ -1,0 +1,14 @@
+[Unit]
+Description=Assistant-Plugin
+After=network.target
+
+[Service]
+Type=simple
+User=pi_or_user
+WorkingDirectory=/absolute/path/to/assistant-plugins
+ExecStart=/absolute/path/to/node /absolute/path/to/assistant-plugins/index.js
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
