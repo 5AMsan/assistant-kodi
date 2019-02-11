@@ -32,6 +32,7 @@ AssistantKodi.prototype.action = function(commande) {
 
   // si '#' dans la commande, on recupère l'objet
   if ( method.indexOf('#') > -1) {
+    
     arr = method.split('#')
     method = arr[0]
     params = JSON.parse(arr[1]);
@@ -42,6 +43,7 @@ AssistantKodi.prototype.action = function(commande) {
       params: params
     }
   } else {
+
     var body = {
       jsonrpc: "2.0",
       id: 1,
