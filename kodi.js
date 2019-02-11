@@ -35,13 +35,18 @@ AssistantKodi.prototype.action = function(commande) {
     arr = method.split('#')
     method = arr[0]
     params = JSON.parse(arr[1]);
-  }
-
-  var body = {
-    jsonrpc: "2.0",
-    id: 1,
-    method: method,
-    params: params
+    var body = {
+      jsonrpc: "2.0",
+      id: 1,
+      method: method,
+      params: params
+    }
+  } else {
+    var body = {
+      jsonrpc: "2.0",
+      id: 1,
+      method: method
+    }
   }
 
   var req = {
